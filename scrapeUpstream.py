@@ -1,4 +1,4 @@
-# this script parses data from the downstream section of the SB6141 modem's signal page and prints it
+# this script parses data from the upstream section of the SB6141 modem's signal page and prints it
 # the idea is to have a scheduled task run this script and append its output to a log file
 
 from lxml import html
